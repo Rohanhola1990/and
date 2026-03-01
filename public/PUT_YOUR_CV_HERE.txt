@@ -1,0 +1,3 @@
+Drop your CV file in this folder and name it: cv.pdf
+
+The "Download CV" button in the nav links to /cv.pdf
