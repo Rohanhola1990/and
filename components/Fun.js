@@ -58,7 +58,7 @@ export default function Fun() {
             <p className="beer-sub">I run on curiosity, caffeine, and the occasional cold beer. If my work, photography, or stories added something to your day — you know what to do.</p>
             <div className="beer-wrap">
               <div className="beer-mug">🍺</div>
-              <a className="beer-btn" href="https://www.buymeacoffee.com/" target="_blank" rel="noopener noreferrer">
+              <a className="beer-btn" href="https://buymeacoffee.com/a.n.d" target="_blank" rel="noopener noreferrer">
                 <span style={{fontSize:'1.1rem'}}>🍺</span> Buy me a Beer
               </a>
             </div>
