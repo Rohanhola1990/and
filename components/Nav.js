@@ -45,7 +45,7 @@ export default function Nav() {
         ))}
       </ul>
       <div className="nav-right">
-        <a className="nav-cv" href="/cv.pdf" download>
+        <a className="nav-cv" href="/Amar_Nath_Das_CV.docx" download>
           <svg width="11" height="11" viewBox="0 0 11 11" fill="none">
             <path d="M5.5 1v6.5M3 5l2.5 2.5L8 5M1 10h9" stroke="#69C39C" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>

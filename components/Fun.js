@@ -37,8 +37,8 @@ export default function Fun() {
               {[
                 { href:'https://www.instagram.com/weekend_e_bangali/',  em:'📷', name:'Weekend e Bangali',  handle:'@weekend_e_bangali',  desc:'Street photography & the Bengali gaze' },
                 { href:'https://www.instagram.com/golpokhunjepai/',     em:'🎞️', name:'Golpo Khunje Pai',  handle:'@golpokhunjepai',     desc:'Bengali storytelling & media building' },
-                { href:'https://linkedin.com',                          em:'💼', name:'LinkedIn',           handle:'Connect professionally', desc:'Career updates & thoughts on UX' },
-                { href:'https://github.com',                            em:'💻', name:'GitHub',             handle:'Open source & experiments', desc:'Code, side projects & contributions' },
+                { href:'https://www.linkedin.com/in/amarnathdas11031990/', em:'💼', name:'LinkedIn', handle:'Connect professionally', desc:'Career updates & thoughts on UX' },
+                { href:'https://github.com/Rohanhola1990', em:'💻', name:'GitHub', handle:'Open source & experiments', desc:'Code, side projects & contributions' },
               ].map(c => (
                 <a key={c.name} className="cc-card" href={c.href} target="_blank" rel="noopener noreferrer">
                   <span className="cc-arrow">↗</span>

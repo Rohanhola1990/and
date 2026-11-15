@@ -10,8 +10,6 @@ npm run dev
 ```
 
 ## Before deploying
-- Replace `public/cv.pdf` with your actual CV file
-- Update LinkedIn / GitHub URLs in `components/Fun.js` and `components/Footer.js`
 - Update buymeacoffee URL in `components/Fun.js`
 
 ## Deploy to Vercel
