@@ -6,10 +6,11 @@ const LINKS = [
   { label: 'Experience', href: '#experience' },
   { label: 'Skills',     href: '#skills' },
   { label: 'Projects',   href: '#projects' },
+  { label: 'AI Lab',     href: '#ai' },
   { label: 'Contact',    href: '#contact' },
   { label: 'Fun',        href: '#fun' },
 ]
-const SECTION_IDS = ['about','experience','skills','projects','contact','fun']
+const SECTION_IDS = ['about','experience','skills','projects','ai','contact','fun']
 
 export default function Nav() {
   const [scrolled, setScrolled]   = useState(false)

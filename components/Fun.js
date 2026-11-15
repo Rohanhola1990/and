@@ -13,7 +13,7 @@ export default function Fun() {
       </svg>
 
       <div className="fun-inner">
-        <p className="stag">06 — Beyond the Code</p>
+        <p className="stag">07 — Beyond the Code</p>
         <h2 className="stitle">A human who<br/><em>also happens</em> to code.</h2>
         <div className="fun-g">
           {/* LEFT */}
