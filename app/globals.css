@@ -253,3 +253,40 @@ footer { padding: 1.8rem 3rem; border-top: 1px solid rgba(105,195,156,.07); disp
 @keyframes rotateSlow { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
 @keyframes floatY { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-13px)} }
 @keyframes foamBob { 0%,100%{transform:translateY(0);opacity:.3} 50%{transform:translateY(-4px);opacity:.8} }
+
+/* AI PROJECTS */
+#ai { padding: 9rem 3rem; border-top: 1px solid rgba(105,195,156,.07); position: relative; overflow: hidden; }
+.ai-inner { max-width: 1200px; margin: 0 auto; position: relative; z-index: 2; }
+.ai-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; margin-bottom: 3rem; }
+.ai-card { position: relative; display: flex; flex-direction: column; gap: .8rem; padding: 1.6rem 1.5rem; border: 1px solid rgba(105,195,156,.14); border-radius: 4px; text-decoration: none; color: inherit; transition: background .25s, border-color .25s, transform .2s; cursor: none; }
+.ai-card:hover { background: rgba(105,195,156,.05); border-color: rgba(105,195,156,.3); transform: translateY(-2px); }
+.ai-top { display: flex; justify-content: space-between; align-items: center; gap: .6rem; }
+.ai-year { font-size: .68rem; color: var(--muted); letter-spacing: .1em; }
+.ai-title { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 300; color: var(--cream); line-height: 1.15; }
+.ai-desc { font-size: .84rem; line-height: 1.75; color: var(--body); flex: 1; }
+.ai-arrow { position: absolute; bottom: 1.2rem; right: 1.3rem; color: var(--teal); font-size: .9rem; }
+
+.games-banner { display: flex; justify-content: space-between; align-items: center; gap: 2rem; flex-wrap: wrap; padding: 2rem 2.2rem; border: 1px solid rgba(105,195,156,.22); border-radius: 4px; background: rgba(64,69,54,.3); text-decoration: none; transition: background .25s, border-color .25s; cursor: none; }
+.games-banner:hover { background: rgba(105,195,156,.07); border-color: var(--teal); }
+.gb-tag { font-size: .66rem; letter-spacing: .2em; text-transform: uppercase; color: var(--teal); margin-bottom: .5rem; }
+.gb-title { font-family: 'Cormorant Garamond', serif; font-size: 1.9rem; font-weight: 300; color: var(--cream); line-height: 1.2; }
+.gb-title em { color: var(--teal); }
+.gb-sub { font-size: .82rem; color: var(--muted); margin-top: .4rem; max-width: 460px; }
+.gb-btn { background: var(--teal); color: var(--bg); padding: .8rem 1.8rem; border-radius: 2px; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; font-weight: 500; white-space: nowrap; }
+
+/* GAMES PAGE */
+#games { min-height: 100vh; padding: 9rem 3rem 6rem; position: relative; }
+.games-inner { max-width: 1200px; margin: 0 auto; }
+.games-lead { max-width: 520px; color: var(--body); font-size: .93rem; line-height: 1.9; margin: -1.5rem 0 2rem; }
+.games-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 4rem; }
+.game-card { position: relative; display: flex; flex-direction: column; gap: .45rem; padding: 1.5rem; border: 1px solid rgba(105,195,156,.14); border-radius: 4px; text-decoration: none; transition: background .25s, border-color .25s, transform .2s; cursor: none; }
+.game-card:hover { background: rgba(105,195,156,.05); border-color: rgba(105,195,156,.3); transform: translateY(-2px); }
+.game-card:hover .cc-arrow { opacity: 1; transform: translate(0,0); }
+.game-em { font-size: 2rem; line-height: 1; }
+.game-genre { font-size: .62rem; letter-spacing: .16em; text-transform: uppercase; color: var(--teal); margin-top: .5rem; }
+.game-title { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: var(--cream); font-weight: 300; }
+
+@media (max-width: 900px) {
+  .ai-grid, .games-grid { grid-template-columns: 1fr; }
+  #ai, #games { padding-left: 1.5rem; padding-right: 1.5rem; }
+}

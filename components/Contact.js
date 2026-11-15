@@ -14,7 +14,7 @@ export default function Contact() {
       </svg>
 
       <div className="c-inner">
-        <p className="stag" style={{marginBottom:'1.5rem'}}>05 — Contact</p>
+        <p className="stag" style={{marginBottom:'1.5rem'}}>06 — Contact</p>
         <h2 className="c-title">Let&apos;s build<br/><em>something</em><br/>remarkable.</h2>
         <p className="c-desc">Open to conversations around UX strategy, product design, frontend leadership, or just talking about interfaces. Based in Hyderabad — available remotely.</p>
         <div className="c-btns">
